@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -40,6 +40,20 @@
           "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "a5xyrHXQX1U",
+          "name": "Checkbox",
+          "type": "managed",
+          "projectId": "7swpWYwy4oNKPRJvvFjiKC",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicCheckbox.jsx",
+          "importSpec": {
+            "modulePath": "Checkbox.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicCheckbox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "checkbox"
         }
       ],
       "icons": [
@@ -152,6 +166,21 @@
           "id": "Qi0cjXahJ",
           "name": "BxbxPhoneIcon",
           "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__BxbxPhone.jsx"
+        },
+        {
+          "id": "p9Y_r2KVRf-",
+          "name": "SquaresvgIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Squaresvg.jsx"
+        },
+        {
+          "id": "3Rx2zzdIA2K",
+          "name": "SquareCheckFilledsvgIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__SquareCheckFilledsvg.jsx"
+        },
+        {
+          "id": "rgU8zIFp9c1",
+          "name": "SquareMinussvgIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__SquareMinussvg.jsx"
         }
       ],
       "images": [
@@ -308,6 +337,6 @@
     ]
   },
   "wrapPagesWithGlobalContexts": true,
-  "cliVersion": "0.1.211",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.211/dist/plasmic.schema.json"
+  "cliVersion": "0.1.265",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.265/dist/plasmic.schema.json"
 }

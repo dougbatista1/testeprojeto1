@@ -212,7 +212,6 @@
   overflow: hidden;
 }
 .navbarNav {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
@@ -220,11 +219,12 @@
   top: 17px;
   left: 0px;
   overflow: hidden;
+  flex-direction: row;
 }
 .navbarNav > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 21px);
   width: calc(100% + 21px);
 }
@@ -237,6 +237,18 @@
   > picture
   > img {
   margin-left: 21px;
+}
+.navbarNav {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 17px;
+  left: 0px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 .liSec {
   width: 43px;
@@ -359,18 +371,18 @@
   left: 0%;
 }
 .navbarNav2 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: absolute;
   top: 3px;
   right: 0px;
+  flex-direction: row;
 }
 .navbarNav2 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 45px);
   width: calc(100% + 45px);
 }
@@ -383,6 +395,17 @@
   > picture
   > img {
   margin-left: 45px;
+}
+.navbarNav2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 3px;
+  right: 0px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 .navItemSec {
   width: 41px;
@@ -423,7 +446,6 @@
   flex-shrink: 0;
 }
 .buttonbtnprimaryColor {
-  flex-direction: row;
   background: rgba(149, 186, 123, 1);
   width: auto;
   height: auto;
@@ -432,13 +454,14 @@
   top: 0px;
   left: 0px;
   overflow: hidden;
+  flex-direction: row;
   border-radius: 5px;
   padding: 15px 25px;
 }
 .buttonbtnprimaryColor > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 15px);
   width: calc(100% + 15px);
 }
@@ -454,6 +477,21 @@
   > picture
   > img {
   margin-left: 15px;
+}
+.buttonbtnprimaryColor {
+  background: rgba(149, 186, 123, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 5px;
+  padding: 15px 25px;
 }
 .btnText2 {
   display: block;
@@ -477,20 +515,20 @@
   flex-shrink: 0;
 }
 .container2 {
-  flex-direction: column;
   width: 1046px;
   height: auto;
   display: flex;
   position: absolute;
   top: 104px;
   left: 197px;
+  flex-direction: column;
   padding-top: 80px;
   padding-bottom: 80px;
 }
 .container2 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 80px);
   height: calc(100% + 80px);
 }
@@ -504,18 +542,31 @@
   > img {
   margin-top: 80px;
 }
+.container2 {
+  width: 1046px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 104px;
+  left: 197px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 .row {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .row > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 30px);
   width: calc(100% + 30px);
 }
@@ -525,19 +576,29 @@
 .row > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 30px;
 }
+.row {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
 .colMd8 {
-  flex-direction: column;
   width: 599px;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
   flex-shrink: 0;
 }
 .colMd8 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 35px);
   height: calc(100% + 35px);
 }
@@ -550,6 +611,17 @@
   > picture
   > img {
   margin-top: 35px;
+}
+.colMd8 {
+  width: 599px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
 }
 .h5HeaderTagSec {
   display: block;
@@ -584,16 +656,16 @@
   width: 496px;
 }
 .cta {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: row;
 }
 .cta > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -603,21 +675,30 @@
 .cta > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 10px;
 }
+.cta {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 .buttonMdSec {
-  flex-direction: column;
   background: #cc0cfc;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
   border-radius: 5px;
   padding: 15px 40px;
 }
 .buttonMdSec > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -631,6 +712,19 @@
   > img {
   margin-top: 10px;
 }
+.buttonMdSec {
+  background: #cc0cfc;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 5px;
+  padding: 15px 40px;
+}
 .btnText3 {
   display: block;
   font-size: 14px;
@@ -643,19 +737,19 @@
   position: relative;
 }
 .buttonMdSec2 {
-  flex-direction: column;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
   border-radius: 5px;
   padding: 15px 40px;
 }
 .buttonMdSec2 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -668,6 +762,18 @@
   > picture
   > img {
   margin-top: 10px;
+}
+.buttonMdSec2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 5px;
+  padding: 15px 40px;
 }
 .btnText4 {
   display: block;
@@ -691,16 +797,16 @@
   justify-content: flex-start;
 }
 .row2 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: row;
 }
 .row2 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 30px);
   width: calc(100% + 30px);
 }
@@ -709,6 +815,15 @@
 .row2 > :global(.__wab_flex-container) > picture > img,
 .row2 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 30px;
+}
+.row2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 .colMd42 {
   width: 328px;
@@ -721,7 +836,6 @@
   flex-shrink: 0;
 }
 .card {
-  flex-direction: column;
   background: rgba(255, 255, 255, 1);
   filter: drop-shadow(0px 13px 9.5px rgba(0, 0, 0, 0.07));
   width: 328px;
@@ -729,12 +843,13 @@
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
   padding: 35px 40px;
 }
 .card > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 20px);
   height: calc(100% + 20px);
 }
@@ -743,6 +858,19 @@
 .card > :global(.__wab_flex-container) > picture > img,
 .card > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 20px;
+}
+.card {
+  background: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 13px 9.5px rgba(0, 0, 0, 0.07));
+  width: 328px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 35px 40px;
 }
 .circleSec {
   background: rgba(230, 64, 64, 1);
@@ -855,7 +983,6 @@
   flex-shrink: 0;
 }
 .card2 {
-  flex-direction: column;
   background: rgba(255, 255, 255, 1);
   filter: drop-shadow(0px 13px 9.5px rgba(0, 0, 0, 0.07));
   width: 328px;
@@ -863,12 +990,13 @@
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
   padding: 35px 40px;
 }
 .card2 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 20px);
   height: calc(100% + 20px);
 }
@@ -877,6 +1005,19 @@
 .card2 > :global(.__wab_flex-container) > picture > img,
 .card2 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 20px;
+}
+.card2 {
+  background: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 13px 9.5px rgba(0, 0, 0, 0.07));
+  width: 328px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 35px 40px;
 }
 .circleSec2 {
   background: rgba(230, 64, 64, 1);
@@ -958,7 +1099,6 @@
   flex-shrink: 0;
 }
 .card3 {
-  flex-direction: column;
   background: rgba(255, 255, 255, 1);
   filter: drop-shadow(0px 13px 9.5px rgba(0, 0, 0, 0.07));
   width: 328px;
@@ -966,12 +1106,13 @@
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
   padding: 35px 40px;
 }
 .card3 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 20px);
   height: calc(100% + 20px);
 }
@@ -980,6 +1121,19 @@
 .card3 > :global(.__wab_flex-container) > picture > img,
 .card3 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 20px;
+}
+.card3 {
+  background: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 13px 9.5px rgba(0, 0, 0, 0.07));
+  width: 328px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 35px 40px;
 }
 .circleSec3 {
   background: rgba(230, 64, 64, 1);
@@ -1060,20 +1214,20 @@
   flex-shrink: 0;
 }
 .container3 {
-  flex-direction: column;
   width: 1050px;
   height: auto;
   display: flex;
   position: absolute;
   top: 0px;
   left: 195px;
+  flex-direction: column;
   padding-top: 80px;
   padding-bottom: 80px;
 }
 .container3 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-top: calc(0px - 50px);
   height: calc(100% + 50px);
 }
@@ -1087,17 +1241,30 @@
   > img {
   margin-top: 50px;
 }
+.container3 {
+  width: 1050px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 195px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 .row3 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: row;
 }
 .row3 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-left: calc(0px - 30px);
   width: calc(100% + 30px);
 }
@@ -1106,6 +1273,15 @@
 .row3 > :global(.__wab_flex-container) > picture > img,
 .row3 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 30px;
+}
+.row3 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .colMd3Sec {
   width: 238px;
@@ -1259,16 +1435,16 @@
   padding-bottom: 160px;
 }
 .row4 {
-  flex-direction: row;
   height: auto;
   display: flex;
   position: relative;
   align-self: stretch;
+  flex-direction: row;
 }
 .row4 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 30px);
   width: calc(100% + 30px);
 }
@@ -1278,19 +1454,28 @@
 .row4 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 30px;
 }
+.row4 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
 .colMd5 {
-  flex-direction: column;
   width: 507px;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
   flex-shrink: 0;
 }
 .colMd5 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 35px);
   height: calc(100% + 35px);
 }
@@ -1303,6 +1488,17 @@
   > picture
   > img {
   margin-top: 35px;
+}
+.colMd5 {
+  width: 507px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
 }
 .fixedWidthFixedHeightSec4 {
   background: rgba(230, 64, 64, 1);
@@ -1333,17 +1529,17 @@
   position: relative;
 }
 .aSec {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .aSec > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -1352,6 +1548,16 @@
 .aSec > :global(.__wab_flex-container) > picture > img,
 .aSec > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 10px;
+}
+.aSec {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 .h6 {
   display: block;
@@ -1380,18 +1586,18 @@
   object-fit: cover;
 }
 .colMd6 {
-  flex-direction: row;
   width: 513px;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
   flex-shrink: 0;
 }
 .colMd6 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-left: calc(0px - 30px);
   width: calc(100% + 30px);
 }
@@ -1404,6 +1610,17 @@
   > picture
   > img {
   margin-left: 30px;
+}
+.colMd6 {
+  width: 513px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
 }
 .thumbConcept7 {
   width: 504px;
@@ -1493,7 +1710,6 @@
   flex-shrink: 0;
 }
 .container5 {
-  flex-direction: column;
   width: 1050px;
   height: auto;
   display: flex;
@@ -1501,13 +1717,14 @@
   top: 0px;
   left: 195px;
   overflow: hidden;
+  flex-direction: column;
   padding-top: 160px;
   padding-bottom: 160px;
 }
 .container5 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-top: calc(0px - 80px);
   height: calc(100% + 80px);
 }
@@ -1521,6 +1738,20 @@
   > img {
   margin-top: 80px;
 }
+.container5 {
+  width: 1050px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 195px;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
 .row5 {
   width: 1044px;
   height: auto;
@@ -1532,17 +1763,17 @@
   justify-content: flex-start;
 }
 .mainContent {
-  flex-direction: column;
   width: 691px;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
 }
 .mainContent > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -1555,6 +1786,16 @@
   > picture
   > img {
   margin-top: 10px;
+}
+.mainContent {
+  width: 691px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .h6SectionTagSec {
   display: block;
@@ -1587,16 +1828,16 @@
   position: relative;
 }
 .row6 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: row;
 }
 .row6 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: center;
   align-items: flex-start;
+  justify-content: center;
   margin-left: calc(0px - 30px);
   width: calc(100% + 30px);
 }
@@ -1605,6 +1846,15 @@
 .row6 > :global(.__wab_flex-container) > picture > img,
 .row6 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 30px;
+}
+.row6 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
 }
 .colMd45 {
   width: 328px;
@@ -1646,7 +1896,6 @@
   overflow: hidden;
 }
 .productActionsSec {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
@@ -1654,11 +1903,12 @@
   left: 104px;
   bottom: 24px;
   overflow: hidden;
+  flex-direction: row;
 }
 .productActionsSec > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -1671,6 +1921,18 @@
   > picture
   > img {
   margin-left: 10px;
+}
+.productActionsSec {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  left: 104px;
+  bottom: 24px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .like {
   background: rgba(255, 255, 255, 1);
@@ -1772,18 +2034,18 @@
   position: relative;
 }
 .frame4 {
-  flex-direction: column;
   height: auto;
   display: flex;
   position: relative;
   align-self: stretch;
   overflow: hidden;
+  flex-direction: column;
   padding: 25px 25px 35px;
 }
 .frame4 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -1797,18 +2059,29 @@
   > img {
   margin-top: 10px;
 }
-.frame1 {
-  flex-direction: row;
+.frame4 {
   height: auto;
   display: flex;
   position: relative;
   align-self: stretch;
   overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 25px 25px 35px;
+}
+.frame1 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
 }
 .frame1 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -1822,18 +2095,28 @@
   > img {
   margin-left: 10px;
 }
-.frame1Sec {
+.frame1 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  overflow: hidden;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frame1Sec {
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .frame1Sec > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -1847,6 +2130,16 @@
   > img {
   margin-left: 10px;
 }
+.frame1Sec {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
 .linkProductCategory {
   display: block;
   font-size: 14px;
@@ -1858,20 +2151,20 @@
   position: relative;
 }
 .frame4Sec {
-  flex-direction: row;
   background: rgba(44, 63, 88, 1);
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
   border-radius: 20px;
   padding: 5px;
 }
 .frame4Sec > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 5px);
   width: calc(100% + 5px);
 }
@@ -1884,6 +2177,19 @@
   > picture
   > img {
   margin-left: 5px;
+}
+.frame4Sec {
+  background: rgba(44, 63, 88, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 20px;
+  padding: 5px;
 }
 .img__pQzv {
   position: relative;
@@ -1932,16 +2238,16 @@
   position: relative;
 }
 .sales {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: row;
 }
 .sales > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -1950,6 +2256,15 @@
 .sales > :global(.__wab_flex-container) > picture > img,
 .sales > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 10px;
+}
+.sales {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 .svg___0EdE {
   position: relative;
@@ -1973,17 +2288,17 @@
   position: relative;
 }
 .prices {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: row;
   padding: 5px 3px;
 }
 .prices > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-left: calc(0px - 5px);
   width: calc(100% + 5px);
 }
@@ -1996,6 +2311,16 @@
   > picture
   > img {
   margin-left: 5px;
+}
+.prices {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 3px;
 }
 .h5PriceSec {
   display: block;
@@ -2020,19 +2345,19 @@
   position: relative;
 }
 .buttonSmSec {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
   border-radius: 37px;
   padding: 10px 20px;
 }
 .buttonSmSec > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -2045,6 +2370,18 @@
   > picture
   > img {
   margin-left: 10px;
+}
+.buttonSmSec {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 37px;
+  padding: 10px 20px;
 }
 .h62 {
   display: block;
@@ -2122,7 +2459,6 @@
   overflow: hidden;
 }
 .productActionsSec2 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
@@ -2130,11 +2466,12 @@
   left: 104px;
   bottom: 24px;
   overflow: hidden;
+  flex-direction: row;
 }
 .productActionsSec2 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -2147,6 +2484,18 @@
   > picture
   > img {
   margin-left: 10px;
+}
+.productActionsSec2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  left: 104px;
+  bottom: 24px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .like3 {
   background: rgba(255, 255, 255, 1);
@@ -2248,18 +2597,18 @@
   position: relative;
 }
 .frame5 {
-  flex-direction: column;
   height: auto;
   display: flex;
   position: relative;
   align-self: stretch;
   overflow: hidden;
+  flex-direction: column;
   padding: 25px 25px 35px;
 }
 .frame5 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -2273,18 +2622,29 @@
   > img {
   margin-top: 10px;
 }
-.frame6 {
-  flex-direction: row;
+.frame5 {
   height: auto;
   display: flex;
   position: relative;
   align-self: stretch;
   overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 25px 25px 35px;
+}
+.frame6 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
 }
 .frame6 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -2298,18 +2658,28 @@
   > img {
   margin-left: 10px;
 }
-.frame1Sec2 {
+.frame6 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  overflow: hidden;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frame1Sec2 {
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .frame1Sec2 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -2323,6 +2693,16 @@
   > img {
   margin-left: 10px;
 }
+.frame1Sec2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
 .linkProductCategory2 {
   display: block;
   font-size: 14px;
@@ -2334,20 +2714,20 @@
   position: relative;
 }
 .frame4Sec2 {
-  flex-direction: row;
   background: rgba(44, 63, 88, 1);
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
   border-radius: 20px;
   padding: 5px;
 }
 .frame4Sec2 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 5px);
   width: calc(100% + 5px);
 }
@@ -2360,6 +2740,19 @@
   > picture
   > img {
   margin-left: 5px;
+}
+.frame4Sec2 {
+  background: rgba(44, 63, 88, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 20px;
+  padding: 5px;
 }
 .img__zbMnw {
   position: relative;
@@ -2408,16 +2801,16 @@
   position: relative;
 }
 .sales2 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: row;
 }
 .sales2 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -2430,6 +2823,15 @@
   > picture
   > img {
   margin-left: 10px;
+}
+.sales2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 .svg___7Yd0 {
   position: relative;
@@ -2453,17 +2855,17 @@
   position: relative;
 }
 .prices2 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: row;
   padding: 5px 3px;
 }
 .prices2 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-left: calc(0px - 5px);
   width: calc(100% + 5px);
 }
@@ -2476,6 +2878,16 @@
   > picture
   > img {
   margin-left: 5px;
+}
+.prices2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 3px;
 }
 .h5PriceSec3 {
   display: block;
@@ -2500,19 +2912,19 @@
   position: relative;
 }
 .buttonSmSec2 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
   border-radius: 37px;
   padding: 10px 20px;
 }
 .buttonSmSec2 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -2525,6 +2937,18 @@
   > picture
   > img {
   margin-left: 10px;
+}
+.buttonSmSec2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 37px;
+  padding: 10px 20px;
 }
 .h63 {
   display: block;
@@ -2602,7 +3026,6 @@
   overflow: hidden;
 }
 .productActionsSec3 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
@@ -2610,11 +3033,12 @@
   left: 104px;
   bottom: 24px;
   overflow: hidden;
+  flex-direction: row;
 }
 .productActionsSec3 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -2627,6 +3051,18 @@
   > picture
   > img {
   margin-left: 10px;
+}
+.productActionsSec3 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  left: 104px;
+  bottom: 24px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .like5 {
   background: rgba(255, 255, 255, 1);
@@ -2728,18 +3164,18 @@
   position: relative;
 }
 .frame7 {
-  flex-direction: column;
   height: auto;
   display: flex;
   position: relative;
   align-self: stretch;
   overflow: hidden;
+  flex-direction: column;
   padding: 25px 25px 35px;
 }
 .frame7 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -2753,18 +3189,29 @@
   > img {
   margin-top: 10px;
 }
-.frame8 {
-  flex-direction: row;
+.frame7 {
   height: auto;
   display: flex;
   position: relative;
   align-self: stretch;
   overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 25px 25px 35px;
+}
+.frame8 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
 }
 .frame8 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -2778,18 +3225,28 @@
   > img {
   margin-left: 10px;
 }
-.frame1Sec3 {
+.frame8 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  overflow: hidden;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frame1Sec3 {
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .frame1Sec3 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -2803,6 +3260,16 @@
   > img {
   margin-left: 10px;
 }
+.frame1Sec3 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
 .linkProductCategory3 {
   display: block;
   font-size: 14px;
@@ -2814,20 +3281,20 @@
   position: relative;
 }
 .frame4Sec3 {
-  flex-direction: row;
   background: rgba(44, 63, 88, 1);
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
   border-radius: 20px;
   padding: 5px;
 }
 .frame4Sec3 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 5px);
   width: calc(100% + 5px);
 }
@@ -2840,6 +3307,19 @@
   > picture
   > img {
   margin-left: 5px;
+}
+.frame4Sec3 {
+  background: rgba(44, 63, 88, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 20px;
+  padding: 5px;
 }
 .img__rrmOv {
   position: relative;
@@ -2888,16 +3368,16 @@
   position: relative;
 }
 .sales3 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: row;
 }
 .sales3 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -2910,6 +3390,15 @@
   > picture
   > img {
   margin-left: 10px;
+}
+.sales3 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 .svg__ewDfd {
   position: relative;
@@ -2933,17 +3422,17 @@
   position: relative;
 }
 .prices3 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: row;
   padding: 5px 3px;
 }
 .prices3 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-left: calc(0px - 5px);
   width: calc(100% + 5px);
 }
@@ -2956,6 +3445,16 @@
   > picture
   > img {
   margin-left: 5px;
+}
+.prices3 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 3px;
 }
 .h5PriceSec5 {
   display: block;
@@ -2980,19 +3479,19 @@
   position: relative;
 }
 .buttonSmSec3 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
   border-radius: 37px;
   padding: 10px 20px;
 }
 .buttonSmSec3 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -3005,6 +3504,18 @@
   > picture
   > img {
   margin-left: 10px;
+}
+.buttonSmSec3 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 37px;
+  padding: 10px 20px;
 }
 .h64 {
   display: block;
@@ -3052,7 +3563,6 @@
   flex-shrink: 0;
 }
 .container6 {
-  flex-direction: column;
   width: 1050px;
   height: auto;
   display: flex;
@@ -3060,13 +3570,14 @@
   top: 0px;
   left: 195px;
   overflow: hidden;
+  flex-direction: column;
   padding-top: 160px;
   padding-bottom: 160px;
 }
 .container6 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-top: calc(0px - 80px);
   height: calc(100% + 80px);
 }
@@ -3080,6 +3591,20 @@
   > img {
   margin-top: 80px;
 }
+.container6 {
+  width: 1050px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 195px;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
 .row7 {
   width: 1044px;
   height: auto;
@@ -3091,17 +3616,17 @@
   justify-content: flex-start;
 }
 .mainContent2 {
-  flex-direction: column;
   width: 691px;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
 }
 .mainContent2 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -3114,6 +3639,16 @@
   > picture
   > img {
   margin-top: 10px;
+}
+.mainContent2 {
+  width: 691px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .h6SectionTag {
   display: block;
@@ -3146,16 +3681,16 @@
   position: relative;
 }
 .row8 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: row;
 }
 .row8 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: center;
   align-items: flex-start;
+  justify-content: center;
   margin-left: calc(0px - 30px);
   width: calc(100% + 30px);
 }
@@ -3164,6 +3699,15 @@
 .row8 > :global(.__wab_flex-container) > picture > img,
 .row8 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 30px;
+}
+.row8 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
 }
 .colMd48 {
   width: 328px;
@@ -3188,18 +3732,18 @@
   padding: 25px;
 }
 .cardContent {
-  flex-direction: column;
   height: auto;
   display: flex;
   position: relative;
   align-self: stretch;
   overflow: hidden;
+  flex-direction: column;
   padding: 30px;
 }
 .cardContent > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-top: calc(0px - 15px);
   height: calc(100% + 15px);
 }
@@ -3213,18 +3757,29 @@
   > img {
   margin-top: 15px;
 }
+.cardContent {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px;
+}
 .stars {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .stars > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-left: calc(0px - 5px);
   width: calc(100% + 5px);
 }
@@ -3233,6 +3788,16 @@
 .stars > :global(.__wab_flex-container) > picture > img,
 .stars > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 5px;
+}
+.stars {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .svg__rM82C {
   position: relative;
@@ -3302,18 +3867,18 @@
   width: 159px;
 }
 .div {
-  flex-direction: row;
   width: auto;
   height: 50px;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
   flex-shrink: 0;
 }
 .div > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 15px);
   width: calc(100% + 15px);
 }
@@ -3322,6 +3887,17 @@
 .div > :global(.__wab_flex-container) > picture > img,
 .div > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 15px;
+}
+.div {
+  width: auto;
+  height: 50px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
 }
 .img___8UT5G {
   position: relative;
@@ -3390,18 +3966,18 @@
   padding: 25px;
 }
 .cardContent2 {
-  flex-direction: column;
   height: auto;
   display: flex;
   position: relative;
   align-self: stretch;
   overflow: hidden;
+  flex-direction: column;
   padding: 30px;
 }
 .cardContent2 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-top: calc(0px - 15px);
   height: calc(100% + 15px);
 }
@@ -3415,18 +3991,29 @@
   > img {
   margin-top: 15px;
 }
+.cardContent2 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px;
+}
 .stars2 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .stars2 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-left: calc(0px - 5px);
   width: calc(100% + 5px);
 }
@@ -3439,6 +4026,16 @@
   > picture
   > img {
   margin-left: 5px;
+}
+.stars2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .svg__zg9JX {
   position: relative;
@@ -3508,18 +4105,18 @@
   width: 159px;
 }
 .div3 {
-  flex-direction: row;
   width: auto;
   height: 50px;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
   flex-shrink: 0;
 }
 .div3 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 15px);
   width: calc(100% + 15px);
 }
@@ -3528,6 +4125,17 @@
 .div3 > :global(.__wab_flex-container) > picture > img,
 .div3 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 15px;
+}
+.div3 {
+  width: auto;
+  height: 50px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
 }
 .img___1S0Zg {
   position: relative;
@@ -3596,18 +4204,18 @@
   padding: 25px;
 }
 .cardContent3 {
-  flex-direction: column;
   height: auto;
   display: flex;
   position: relative;
   align-self: stretch;
   overflow: hidden;
+  flex-direction: column;
   padding: 30px;
 }
 .cardContent3 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-top: calc(0px - 15px);
   height: calc(100% + 15px);
 }
@@ -3621,18 +4229,29 @@
   > img {
   margin-top: 15px;
 }
+.cardContent3 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px;
+}
 .stars3 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .stars3 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-left: calc(0px - 5px);
   width: calc(100% + 5px);
 }
@@ -3645,6 +4264,16 @@
   > picture
   > img {
   margin-left: 5px;
+}
+.stars3 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .svg__io6Et {
   position: relative;
@@ -3714,18 +4343,18 @@
   width: 159px;
 }
 .div5 {
-  flex-direction: row;
   width: auto;
   height: 50px;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
   flex-shrink: 0;
 }
 .div5 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 15px);
   width: calc(100% + 15px);
 }
@@ -3734,6 +4363,17 @@
 .div5 > :global(.__wab_flex-container) > picture > img,
 .div5 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 15px;
+}
+.div5 {
+  width: auto;
+  height: 50px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
 }
 .img__tWtJ {
   position: relative;
@@ -3789,20 +4429,20 @@
   flex-shrink: 0;
 }
 .container7 {
-  flex-direction: column;
   width: 1050px;
   height: auto;
   display: flex;
   position: absolute;
   top: 0px;
   left: 195px;
+  flex-direction: column;
   padding-top: 112px;
   padding-bottom: 112px;
 }
 .container7 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-top: calc(0px - 112px);
   height: calc(100% + 112px);
 }
@@ -3816,6 +4456,19 @@
   > img {
   margin-top: 112px;
 }
+.container7 {
+  width: 1050px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 195px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
 .row9 {
   width: 1044px;
   height: auto;
@@ -3827,17 +4480,17 @@
   justify-content: flex-start;
 }
 .mainContent3 {
-  flex-direction: column;
   width: 691px;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
 }
 .mainContent3 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -3850,6 +4503,16 @@
   > picture
   > img {
   margin-top: 10px;
+}
+.mainContent3 {
+  width: 691px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .h6SectionTagSec2 {
   display: block;
@@ -3882,16 +4545,16 @@
   position: relative;
 }
 .row10 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: row;
 }
 .row10 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-left: calc(0px - 30px);
   width: calc(100% + 30px);
 }
@@ -3900,6 +4563,15 @@
 .row10 > :global(.__wab_flex-container) > picture > img,
 .row10 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 30px;
+}
+.row10 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .colMd3 {
   width: 238px;
@@ -3943,18 +4615,18 @@
   overflow: hidden;
 }
 .cardContent4 {
-  flex-direction: column;
   width: 232px;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
   padding: 30px;
 }
 .cardContent4 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -3967,6 +4639,17 @@
   > picture
   > img {
   margin-top: 10px;
+}
+.cardContent4 {
+  width: 232px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px;
 }
 .h5UserTitleSec {
   display: block;
@@ -3991,17 +4674,17 @@
   position: relative;
 }
 .socialMediaSec {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .socialMediaSec > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   margin-left: calc(0px - 20px);
   width: calc(100% + 20px);
 }
@@ -4014,6 +4697,16 @@
   > picture
   > img {
   margin-left: 20px;
+}
+.socialMediaSec {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .facebook {
   width: 24px;
@@ -4117,18 +4810,18 @@
   overflow: hidden;
 }
 .cardContent5 {
-  flex-direction: column;
   width: 232px;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
   padding: 30px;
 }
 .cardContent5 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -4141,6 +4834,17 @@
   > picture
   > img {
   margin-top: 10px;
+}
+.cardContent5 {
+  width: 232px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px;
 }
 .h5UserTitleSec2 {
   display: block;
@@ -4165,17 +4869,17 @@
   position: relative;
 }
 .socialMediaSec2 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .socialMediaSec2 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   margin-left: calc(0px - 20px);
   width: calc(100% + 20px);
 }
@@ -4188,6 +4892,16 @@
   > picture
   > img {
   margin-left: 20px;
+}
+.socialMediaSec2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .facebook2 {
   width: 24px;
@@ -4291,18 +5005,18 @@
   overflow: hidden;
 }
 .cardContent6 {
-  flex-direction: column;
   width: 232px;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
   padding: 30px;
 }
 .cardContent6 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -4315,6 +5029,17 @@
   > picture
   > img {
   margin-top: 10px;
+}
+.cardContent6 {
+  width: 232px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px;
 }
 .h5UserTitleSec3 {
   display: block;
@@ -4339,17 +5064,17 @@
   position: relative;
 }
 .socialMediaSec3 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .socialMediaSec3 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   margin-left: calc(0px - 20px);
   width: calc(100% + 20px);
 }
@@ -4362,6 +5087,16 @@
   > picture
   > img {
   margin-left: 20px;
+}
+.socialMediaSec3 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .facebook3 {
   width: 24px;
@@ -4465,18 +5200,18 @@
   overflow: hidden;
 }
 .cardContent7 {
-  flex-direction: column;
   width: 232px;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
   padding: 30px;
 }
 .cardContent7 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -4489,6 +5224,17 @@
   > picture
   > img {
   margin-top: 10px;
+}
+.cardContent7 {
+  width: 232px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px;
 }
 .h5UserTitleSec4 {
   display: block;
@@ -4513,17 +5259,17 @@
   position: relative;
 }
 .socialMediaSec4 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .socialMediaSec4 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   margin-left: calc(0px - 20px);
   width: calc(100% + 20px);
 }
@@ -4536,6 +5282,16 @@
   > picture
   > img {
   margin-left: 20px;
+}
+.socialMediaSec4 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .facebook4 {
   width: 24px;
@@ -4607,7 +5363,6 @@
   flex-shrink: 0;
 }
 .container8 {
-  flex-direction: column;
   width: 1050px;
   height: auto;
   display: flex;
@@ -4615,13 +5370,14 @@
   top: 0px;
   left: 195px;
   overflow: hidden;
+  flex-direction: column;
   padding-top: 160px;
   padding-bottom: 160px;
 }
 .container8 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-top: calc(0px - 80px);
   height: calc(100% + 80px);
 }
@@ -4635,6 +5391,20 @@
   > img {
   margin-top: 80px;
 }
+.container8 {
+  width: 1050px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 195px;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
 .row11 {
   width: 692px;
   height: auto;
@@ -4646,17 +5416,17 @@
   justify-content: flex-start;
 }
 .mainContent4 {
-  flex-direction: column;
   width: 691px;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
 }
 .mainContent4 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -4669,6 +5439,16 @@
   > picture
   > img {
   margin-top: 10px;
+}
+.mainContent4 {
+  width: 691px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 .h6SectionTagSec3 {
   display: block;
@@ -4704,16 +5484,16 @@
   position: relative;
 }
 .rowSec {
-  flex-direction: row;
   width: 688px;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: row;
 }
 .rowSec > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: center;
   align-items: flex-start;
+  justify-content: center;
   margin-left: calc(0px - 30px);
   width: calc(100% + 30px);
 }
@@ -4726,6 +5506,15 @@
   > picture
   > img {
   margin-left: 30px;
+}
+.rowSec {
+  width: 688px;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
 }
 .colMd82 {
   width: 688px;
@@ -4847,17 +5636,17 @@
   padding-bottom: 50px;
 }
 .row12 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .row12 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-left: calc(0px - 30px);
   width: calc(100% + 30px);
 }
@@ -4867,19 +5656,29 @@
 .row12 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 30px;
 }
+.row12 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 .colMd2 {
-  flex-direction: column;
   width: 148px;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
   flex-shrink: 0;
 }
 .colMd2 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 20px);
   height: calc(100% + 20px);
 }
@@ -4893,6 +5692,17 @@
   > img {
   margin-top: 20px;
 }
+.colMd2 {
+  width: 148px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
 .h5 {
   display: block;
   font-size: 16px;
@@ -4904,16 +5714,16 @@
   position: relative;
 }
 .div8 {
-  flex-direction: column;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: column;
 }
 .div8 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -4922,6 +5732,15 @@
 .div8 > :global(.__wab_flex-container) > picture > img,
 .div8 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 10px;
+}
+.div8 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .link8 {
   display: block;
@@ -4964,18 +5783,18 @@
   position: relative;
 }
 .colMd22 {
-  flex-direction: column;
   width: 152px;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
   flex-shrink: 0;
 }
 .colMd22 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 20px);
   height: calc(100% + 20px);
 }
@@ -4989,6 +5808,17 @@
   > img {
   margin-top: 20px;
 }
+.colMd22 {
+  width: 152px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
 .h52 {
   display: block;
   font-size: 16px;
@@ -5000,16 +5830,16 @@
   position: relative;
 }
 .div9 {
-  flex-direction: column;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: column;
 }
 .div9 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -5018,6 +5848,15 @@
 .div9 > :global(.__wab_flex-container) > picture > img,
 .div9 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 10px;
+}
+.div9 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .link12 {
   display: block;
@@ -5060,18 +5899,18 @@
   position: relative;
 }
 .colMd23 {
-  flex-direction: column;
   width: 148px;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
   flex-shrink: 0;
 }
 .colMd23 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 20px);
   height: calc(100% + 20px);
 }
@@ -5085,6 +5924,17 @@
   > img {
   margin-top: 20px;
 }
+.colMd23 {
+  width: 148px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
 .h53 {
   display: block;
   font-size: 16px;
@@ -5096,16 +5946,16 @@
   position: relative;
 }
 .div10 {
-  flex-direction: column;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: column;
 }
 .div10 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -5114,6 +5964,15 @@
 .div10 > :global(.__wab_flex-container) > picture > img,
 .div10 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 10px;
+}
+.div10 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .link16 {
   display: block;
@@ -5156,18 +6015,18 @@
   position: relative;
 }
 .colMd24 {
-  flex-direction: column;
   width: 152px;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
   flex-shrink: 0;
 }
 .colMd24 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 20px);
   height: calc(100% + 20px);
 }
@@ -5181,6 +6040,17 @@
   > img {
   margin-top: 20px;
 }
+.colMd24 {
+  width: 152px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
 .h54 {
   display: block;
   font-size: 16px;
@@ -5192,16 +6062,16 @@
   position: relative;
 }
 .div11 {
-  flex-direction: column;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: column;
 }
 .div11 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -5210,6 +6080,15 @@
 .div11 > :global(.__wab_flex-container) > picture > img,
 .div11 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 10px;
+}
+.div11 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .link20 {
   display: block;
@@ -5252,18 +6131,18 @@
   position: relative;
 }
 .colMd411 {
-  flex-direction: column;
   width: 321px;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
   flex-shrink: 0;
 }
 .colMd411 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 20px);
   height: calc(100% + 20px);
 }
@@ -5277,6 +6156,17 @@
   > img {
   margin-top: 20px;
 }
+.colMd411 {
+  width: 321px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
 .h55 {
   display: block;
   font-size: 16px;
@@ -5288,16 +6178,16 @@
   position: relative;
 }
 .div12 {
-  flex-direction: column;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  flex-direction: column;
 }
 .div12 > :global(.__wab_flex-container) {
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -5307,18 +6197,27 @@
 .div12 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 10px;
 }
+.div12 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 .featureItem {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .featureItem > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -5331,6 +6230,16 @@
   > picture
   > img {
   margin-left: 10px;
+}
+.featureItem {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 .svg__lmQzk {
   position: relative;
@@ -5354,17 +6263,17 @@
   position: relative;
 }
 .featureItem2 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .featureItem2 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -5377,6 +6286,16 @@
   > picture
   > img {
   margin-left: 10px;
+}
+.featureItem2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 .img___6V7Z {
   position: relative;
@@ -5405,17 +6324,17 @@
   position: relative;
 }
 .featureItem3 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .featureItem3 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -5428,6 +6347,16 @@
   > picture
   > img {
   margin-left: 10px;
+}
+.featureItem3 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 .img__zUeY {
   position: relative;
@@ -5480,17 +6409,17 @@
   padding-bottom: 25px;
 }
 .row13 {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .row13 > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   margin-left: calc(0px - 213px);
   width: calc(100% + 213px);
 }
@@ -5499,6 +6428,16 @@
 .row13 > :global(.__wab_flex-container) > picture > img,
 .row13 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 213px;
+}
+.row13 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 .colMd7 {
   width: 600px;
@@ -5533,17 +6472,17 @@
   flex-shrink: 0;
 }
 .socialMedia {
-  flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: row;
 }
 .socialMedia > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   margin-left: calc(0px - 20px);
   width: calc(100% + 20px);
 }
@@ -5556,6 +6495,16 @@
   > picture
   > img {
   margin-left: 20px;
+}
+.socialMedia {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .facebook5 {
   width: 24px;

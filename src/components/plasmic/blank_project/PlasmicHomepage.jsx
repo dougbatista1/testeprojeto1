@@ -10,7 +10,7 @@
 // Component: ODZlTzHrUKEKp
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
-import * as ph from "@plasmicapp/host";
+import * as ph from "@plasmicapp/react-web/lib/host";
 import {
   classNames,
   createPlasmicElementProxy,
@@ -93,6 +93,7 @@ function PlasmicHomepage__RenderFunc(props) {
             projectcss.root_reset,
             projectcss.plasmic_default_styles,
             projectcss.plasmic_mixins,
+            projectcss.plasmic_tokens,
             sty.root
           )}
         >
@@ -133,7 +134,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       className={classNames(projectcss.all, sty.rectangle9)}
                     />
                   </div>
-
                   <div
                     data-plasmic-name={"none2"}
                     data-plasmic-override={overrides.none2}
@@ -150,7 +150,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         className={classNames(projectcss.all, sty.rectangle)}
                       />
                     </div>
-
                     <VectorIcon
                       className={classNames(projectcss.all, sty.svg__f4Ei0)}
                       role={"img"}
@@ -168,14 +167,12 @@ function PlasmicHomepage__RenderFunc(props) {
                     />
                   </div>
                 </div>
-
                 <div
                   data-plasmic-name={"filter"}
                   data-plasmic-override={overrides.filter}
                   className={classNames(projectcss.all, sty.filter)}
                 />
               </div>
-
               <div
                 data-plasmic-name={"container"}
                 data-plasmic-override={overrides.container}
@@ -204,7 +201,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       {"Brandname"}
                     </div>
                   </div>
-
                   <div
                     data-plasmic-name={"navbarToggler"}
                     data-plasmic-override={overrides.navbarToggler}
@@ -219,7 +215,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       )}
                     />
                   </div>
-
                   <div
                     data-plasmic-name={"collapseNavbarCollapse"}
                     data-plasmic-override={overrides.collapseNavbarCollapse}
@@ -258,7 +253,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           </div>
                         </div>
                       </div>
-
                       <div
                         data-plasmic-name={"liSec2"}
                         data-plasmic-override={overrides.liSec2}
@@ -282,7 +276,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           </div>
                         </div>
                       </div>
-
                       <div
                         data-plasmic-name={"liSec3"}
                         data-plasmic-override={overrides.liSec3}
@@ -306,7 +299,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           </div>
                         </div>
                       </div>
-
                       <div
                         data-plasmic-name={"liSec4"}
                         data-plasmic-override={overrides.liSec4}
@@ -331,7 +323,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         </div>
                       </div>
                     </p.Stack>
-
                     <p.Stack
                       as={"div"}
                       data-plasmic-name={"navbarNav2"}
@@ -362,7 +353,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           </div>
                         </div>
                       </div>
-
                       <div
                         data-plasmic-name={"navItemSec2"}
                         data-plasmic-override={overrides.navItemSec2}
@@ -391,7 +381,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           >
                             {"JOIN US"}
                           </div>
-
                           <IcnArrowRightIcnXsIcon
                             className={classNames(
                               projectcss.all,
@@ -405,7 +394,6 @@ function PlasmicHomepage__RenderFunc(props) {
                   </div>
                 </div>
               </div>
-
               <p.Stack
                 as={"div"}
                 data-plasmic-name={"container2"}
@@ -438,7 +426,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     >
                       {"Join Us"}
                     </div>
-
                     <div
                       data-plasmic-name={"h1HeadlineSec"}
                       data-plasmic-override={overrides.h1HeadlineSec}
@@ -450,7 +437,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     >
                       {"Testando página"}
                     </div>
-
                     <div
                       data-plasmic-name={"h4SubHeadlineSec"}
                       data-plasmic-override={overrides.h4SubHeadlineSec}
@@ -464,7 +450,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         "Every day brings with it a fresh set of learning possibilities."
                       }
                     </div>
-
                     <p.Stack
                       as={"div"}
                       data-plasmic-name={"cta"}
@@ -491,7 +476,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           {"Get Quote Now"}
                         </div>
                       </p.Stack>
-
                       <p.Stack
                         as={"div"}
                         data-plasmic-name={"buttonMdSec2"}
@@ -513,14 +497,12 @@ function PlasmicHomepage__RenderFunc(props) {
                       </p.Stack>
                     </p.Stack>
                   </p.Stack>
-
                   <div
                     data-plasmic-name={"colMd4"}
                     data-plasmic-override={overrides.colMd4}
                     className={classNames(projectcss.all, sty.colMd4)}
                   />
                 </p.Stack>
-
                 <p.Stack
                   as={"div"}
                   data-plasmic-name={"row2"}
@@ -574,7 +556,6 @@ function PlasmicHomepage__RenderFunc(props) {
                                 role={"img"}
                               />
                             </div>
-
                             <div
                               data-plasmic-name={"frame3"}
                               data-plasmic-override={overrides.frame3}
@@ -591,7 +572,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           </div>
                         </div>
                       </div>
-
                       <div
                         data-plasmic-name={"h3FeatureTitleSec"}
                         data-plasmic-override={overrides.h3FeatureTitleSec}
@@ -603,7 +583,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       >
                         {"Expert instruction"}
                       </div>
-
                       <div
                         data-plasmic-name={"fixedWidthFixedHeightSec"}
                         data-plasmic-override={
@@ -632,7 +611,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       </div>
                     </p.Stack>
                   </div>
-
                   <div
                     data-plasmic-name={"colMd43"}
                     data-plasmic-override={overrides.colMd43}
@@ -676,7 +654,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           </div>
                         </div>
                       </div>
-
                       <div
                         data-plasmic-name={"h3FeatureTitleSec2"}
                         data-plasmic-override={overrides.h3FeatureTitleSec2}
@@ -688,7 +665,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       >
                         {"Training Courses"}
                       </div>
-
                       <div
                         data-plasmic-name={"fixedWidthFixedHeightSec2"}
                         data-plasmic-override={
@@ -717,7 +693,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       </div>
                     </p.Stack>
                   </div>
-
                   <div
                     data-plasmic-name={"colMd44"}
                     data-plasmic-override={overrides.colMd44}
@@ -763,7 +738,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           </div>
                         </div>
                       </div>
-
                       <div
                         data-plasmic-name={"h3FeatureTitleSec3"}
                         data-plasmic-override={overrides.h3FeatureTitleSec3}
@@ -775,7 +749,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       >
                         {"Expert instruction"}
                       </div>
-
                       <div
                         data-plasmic-name={"fixedWidthFixedHeightSec3"}
                         data-plasmic-override={
@@ -807,7 +780,6 @@ function PlasmicHomepage__RenderFunc(props) {
                 </p.Stack>
               </p.Stack>
             </div>
-
             <div
               data-plasmic-name={"stats1"}
               data-plasmic-override={overrides.stats1}
@@ -843,7 +815,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     >
                       {"15K"}
                     </div>
-
                     <div
                       data-plasmic-name={"metricsTitle1"}
                       data-plasmic-override={overrides.metricsTitle1}
@@ -856,7 +827,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       {"Happy Customers"}
                     </div>
                   </div>
-
                   <div
                     data-plasmic-name={"colMd3Sec2"}
                     data-plasmic-override={overrides.colMd3Sec2}
@@ -873,7 +843,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     >
                       {"150K"}
                     </div>
-
                     <div
                       data-plasmic-name={"metricsTitle2"}
                       data-plasmic-override={overrides.metricsTitle2}
@@ -886,7 +855,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       {"Monthly Visitors"}
                     </div>
                   </div>
-
                   <div
                     data-plasmic-name={"colMd3Sec3"}
                     data-plasmic-override={overrides.colMd3Sec3}
@@ -903,7 +871,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     >
                       {"15"}
                     </div>
-
                     <div
                       data-plasmic-name={"metricsTitle3"}
                       data-plasmic-override={overrides.metricsTitle3}
@@ -916,7 +883,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       {"Countries  Worldwide"}
                     </div>
                   </div>
-
                   <div
                     data-plasmic-name={"colMd3Sec4"}
                     data-plasmic-override={overrides.colMd3Sec4}
@@ -933,7 +899,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     >
                       {"100+"}
                     </div>
-
                     <div
                       data-plasmic-name={"metricsTitle4"}
                       data-plasmic-override={overrides.metricsTitle4}
@@ -949,7 +914,6 @@ function PlasmicHomepage__RenderFunc(props) {
                 </p.Stack>
               </p.Stack>
             </div>
-
             <div
               data-plasmic-name={"_11Layout2"}
               data-plasmic-override={overrides._11Layout2}
@@ -996,7 +960,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     >
                       {"Every Client Matters"}
                     </div>
-
                     <div
                       data-plasmic-name={"paragraphSec"}
                       data-plasmic-override={overrides.paragraphSec}
@@ -1010,7 +973,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         "Problems trying to resolve the conflict between \nthe two major realms of Classical physics: \nNewtonian mechanics "
                       }
                     </div>
-
                     <p.Stack
                       as={"div"}
                       data-plasmic-name={"aSec"}
@@ -1029,7 +991,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       >
                         {"Learn More"}
                       </div>
-
                       <p.PlasmicImg
                         alt={""}
                         className={classNames(sty.img__offn8)}
@@ -1049,7 +1010,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       />
                     </p.Stack>
                   </p.Stack>
-
                   <p.Stack
                     as={"div"}
                     data-plasmic-name={"colMd6"}
@@ -1099,7 +1059,6 @@ function PlasmicHomepage__RenderFunc(props) {
                 </p.Stack>
               </div>
             </div>
-
             <div
               data-plasmic-name={"_13Layout1"}
               data-plasmic-override={overrides._13Layout1}
@@ -1135,7 +1094,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     >
                       {"Practice Advice"}
                     </div>
-
                     <div
                       data-plasmic-name={"h2SectionTitle1Sec"}
                       data-plasmic-override={overrides.h2SectionTitle1Sec}
@@ -1147,7 +1105,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     >
                       {"Our Experts Teacher"}
                     </div>
-
                     <div
                       data-plasmic-name={"paragraphSec2"}
                       data-plasmic-override={overrides.paragraphSec2}
@@ -1163,7 +1120,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     </div>
                   </p.Stack>
                 </div>
-
                 <p.Stack
                   as={"div"}
                   data-plasmic-name={"row6"}
@@ -1228,7 +1184,6 @@ function PlasmicHomepage__RenderFunc(props) {
                               }}
                             />
                           </div>
-
                           <div
                             data-plasmic-name={"basket"}
                             data-plasmic-override={overrides.basket}
@@ -1242,7 +1197,6 @@ function PlasmicHomepage__RenderFunc(props) {
                               role={"img"}
                             />
                           </div>
-
                           <div
                             data-plasmic-name={"like2"}
                             data-plasmic-override={overrides.like2}
@@ -1257,7 +1211,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             />
                           </div>
                         </p.Stack>
-
                         <div
                           data-plasmic-name={"tagSec"}
                           data-plasmic-override={overrides.tagSec}
@@ -1274,7 +1227,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           </div>
                         </div>
                       </div>
-
                       <p.Stack
                         as={"div"}
                         data-plasmic-name={"frame4"}
@@ -1313,7 +1265,6 @@ function PlasmicHomepage__RenderFunc(props) {
                               {"Training Courses"}
                             </div>
                           </p.Stack>
-
                           <p.Stack
                             as={"div"}
                             data-plasmic-name={"frame4Sec"}
@@ -1355,7 +1306,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             </div>
                           </p.Stack>
                         </p.Stack>
-
                         <div
                           data-plasmic-name={"h5ProductTitle1Sec"}
                           data-plasmic-override={overrides.h5ProductTitle1Sec}
@@ -1367,7 +1317,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"Get Quality Education"}
                         </div>
-
                         <div
                           data-plasmic-name={"paragraphProductDescriptionSec"}
                           data-plasmic-override={
@@ -1383,7 +1332,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             "We focus on ergonomics and meeting \nyou where you work. It's only a \nkeystroke away."
                           }
                         </div>
-
                         <p.Stack
                           as={"div"}
                           data-plasmic-name={"sales"}
@@ -1411,7 +1359,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             {"15 Sales"}
                           </div>
                         </p.Stack>
-
                         <p.Stack
                           as={"div"}
                           data-plasmic-name={"prices"}
@@ -1430,7 +1377,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           >
                             {"$16.48"}
                           </div>
-
                           <div
                             data-plasmic-name={"h5PriceSec2"}
                             data-plasmic-override={overrides.h5PriceSec2}
@@ -1443,7 +1389,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             {"$6.48"}
                           </div>
                         </p.Stack>
-
                         <p.Stack
                           as={"div"}
                           data-plasmic-name={"buttonSmSec"}
@@ -1465,7 +1410,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           >
                             {"Learn More"}
                           </div>
-
                           <div
                             className={classNames(
                               projectcss.all,
@@ -1494,7 +1438,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       </p.Stack>
                     </div>
                   </div>
-
                   <div
                     data-plasmic-name={"colMd46"}
                     data-plasmic-override={overrides.colMd46}
@@ -1552,7 +1495,6 @@ function PlasmicHomepage__RenderFunc(props) {
                               }}
                             />
                           </div>
-
                           <div
                             data-plasmic-name={"basket2"}
                             data-plasmic-override={overrides.basket2}
@@ -1566,7 +1508,6 @@ function PlasmicHomepage__RenderFunc(props) {
                               role={"img"}
                             />
                           </div>
-
                           <div
                             data-plasmic-name={"like4"}
                             data-plasmic-override={overrides.like4}
@@ -1581,7 +1522,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             />
                           </div>
                         </p.Stack>
-
                         <div
                           data-plasmic-name={"tagSec2"}
                           data-plasmic-override={overrides.tagSec2}
@@ -1598,7 +1538,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           </div>
                         </div>
                       </div>
-
                       <p.Stack
                         as={"div"}
                         data-plasmic-name={"frame5"}
@@ -1637,7 +1576,6 @@ function PlasmicHomepage__RenderFunc(props) {
                               {"2,769 online courses\t"}
                             </div>
                           </p.Stack>
-
                           <p.Stack
                             as={"div"}
                             data-plasmic-name={"frame4Sec2"}
@@ -1679,7 +1617,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             </div>
                           </p.Stack>
                         </p.Stack>
-
                         <div
                           data-plasmic-name={"h5ProductTitle2Sec"}
                           data-plasmic-override={overrides.h5ProductTitle2Sec}
@@ -1691,7 +1628,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"Our Popular Courses"}
                         </div>
-
                         <div
                           data-plasmic-name={"paragraphProductDescriptionSec2"}
                           data-plasmic-override={
@@ -1707,7 +1643,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             "We focus on ergonomics and meeting \nyou where you work. It's only a \nkeystroke away."
                           }
                         </div>
-
                         <p.Stack
                           as={"div"}
                           data-plasmic-name={"sales2"}
@@ -1735,7 +1670,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             {"15 Sales"}
                           </div>
                         </p.Stack>
-
                         <p.Stack
                           as={"div"}
                           data-plasmic-name={"prices2"}
@@ -1754,7 +1688,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           >
                             {"$16.48"}
                           </div>
-
                           <div
                             data-plasmic-name={"h5PriceSec4"}
                             data-plasmic-override={overrides.h5PriceSec4}
@@ -1767,7 +1700,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             {"$6.48"}
                           </div>
                         </p.Stack>
-
                         <p.Stack
                           as={"div"}
                           data-plasmic-name={"buttonSmSec2"}
@@ -1789,7 +1721,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           >
                             {"Learn More"}
                           </div>
-
                           <div
                             className={classNames(
                               projectcss.all,
@@ -1818,7 +1749,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       </p.Stack>
                     </div>
                   </div>
-
                   <div
                     data-plasmic-name={"colMd47"}
                     data-plasmic-override={overrides.colMd47}
@@ -1876,7 +1806,6 @@ function PlasmicHomepage__RenderFunc(props) {
                               }}
                             />
                           </div>
-
                           <div
                             data-plasmic-name={"basket3"}
                             data-plasmic-override={overrides.basket3}
@@ -1890,7 +1819,6 @@ function PlasmicHomepage__RenderFunc(props) {
                               role={"img"}
                             />
                           </div>
-
                           <div
                             data-plasmic-name={"like6"}
                             data-plasmic-override={overrides.like6}
@@ -1905,7 +1833,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             />
                           </div>
                         </p.Stack>
-
                         <div
                           data-plasmic-name={"tagSec3"}
                           data-plasmic-override={overrides.tagSec3}
@@ -1922,7 +1849,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           </div>
                         </div>
                       </div>
-
                       <p.Stack
                         as={"div"}
                         data-plasmic-name={"frame7"}
@@ -1961,7 +1887,6 @@ function PlasmicHomepage__RenderFunc(props) {
                               {"Expert instruction"}
                             </div>
                           </p.Stack>
-
                           <p.Stack
                             as={"div"}
                             data-plasmic-name={"frame4Sec3"}
@@ -2003,7 +1928,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             </div>
                           </p.Stack>
                         </p.Stack>
-
                         <div
                           data-plasmic-name={"h5ProductTitle3Sec"}
                           data-plasmic-override={overrides.h5ProductTitle3Sec}
@@ -2015,7 +1939,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"Most Popular Courses"}
                         </div>
-
                         <div
                           data-plasmic-name={"paragraphProductDescriptionSec3"}
                           data-plasmic-override={
@@ -2031,7 +1954,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             "We focus on ergonomics and meeting \nyou where you work. It's only a \nkeystroke away."
                           }
                         </div>
-
                         <p.Stack
                           as={"div"}
                           data-plasmic-name={"sales3"}
@@ -2059,7 +1981,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             {"15 Sales"}
                           </div>
                         </p.Stack>
-
                         <p.Stack
                           as={"div"}
                           data-plasmic-name={"prices3"}
@@ -2078,7 +1999,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           >
                             {"$16.48"}
                           </div>
-
                           <div
                             data-plasmic-name={"h5PriceSec6"}
                             data-plasmic-override={overrides.h5PriceSec6}
@@ -2091,7 +2011,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             {"$6.48"}
                           </div>
                         </p.Stack>
-
                         <p.Stack
                           as={"div"}
                           data-plasmic-name={"buttonSmSec3"}
@@ -2113,7 +2032,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           >
                             {"Learn More"}
                           </div>
-
                           <div
                             className={classNames(
                               projectcss.all,
@@ -2145,7 +2063,6 @@ function PlasmicHomepage__RenderFunc(props) {
                 </p.Stack>
               </p.Stack>
             </div>
-
             <div
               data-plasmic-name={"_13Layout2"}
               data-plasmic-override={overrides._13Layout2}
@@ -2181,7 +2098,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     >
                       {"Practice Advice"}
                     </div>
-
                     <div
                       data-plasmic-name={"h2SectionTitle2"}
                       data-plasmic-override={overrides.h2SectionTitle2}
@@ -2193,7 +2109,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     >
                       {"Every Client Matters"}
                     </div>
-
                     <div
                       data-plasmic-name={"paragraph"}
                       data-plasmic-override={overrides.paragraph}
@@ -2209,7 +2124,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     </div>
                   </p.Stack>
                 </div>
-
                 <p.Stack
                   as={"div"}
                   data-plasmic-name={"row8"}
@@ -2284,7 +2198,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             role={"img"}
                           />
                         </p.Stack>
-
                         <div
                           data-plasmic-name={"paragraph2"}
                           data-plasmic-override={overrides.paragraph2}
@@ -2299,7 +2212,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           }
                         </div>
                       </p.Stack>
-
                       <p.Stack
                         as={"div"}
                         data-plasmic-name={"div"}
@@ -2341,7 +2253,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           >
                             {"Regina Miles"}
                           </div>
-
                           <div
                             data-plasmic-name={"h65"}
                             data-plasmic-override={overrides.h65}
@@ -2357,7 +2268,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       </p.Stack>
                     </div>
                   </div>
-
                   <div
                     data-plasmic-name={"colMd49"}
                     data-plasmic-override={overrides.colMd49}
@@ -2425,7 +2335,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             role={"img"}
                           />
                         </p.Stack>
-
                         <div
                           data-plasmic-name={"paragraph3"}
                           data-plasmic-override={overrides.paragraph3}
@@ -2440,7 +2349,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           }
                         </div>
                       </p.Stack>
-
                       <p.Stack
                         as={"div"}
                         data-plasmic-name={"div3"}
@@ -2482,7 +2390,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           >
                             {"Regina Miles"}
                           </div>
-
                           <div
                             data-plasmic-name={"h66"}
                             data-plasmic-override={overrides.h66}
@@ -2498,7 +2405,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       </p.Stack>
                     </div>
                   </div>
-
                   <div
                     data-plasmic-name={"colMd410"}
                     data-plasmic-override={overrides.colMd410}
@@ -2566,7 +2472,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             role={"img"}
                           />
                         </p.Stack>
-
                         <div
                           data-plasmic-name={"paragraph4"}
                           data-plasmic-override={overrides.paragraph4}
@@ -2581,7 +2486,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           }
                         </div>
                       </p.Stack>
-
                       <p.Stack
                         as={"div"}
                         data-plasmic-name={"div5"}
@@ -2623,7 +2527,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           >
                             {"Regina Miles"}
                           </div>
-
                           <div
                             data-plasmic-name={"h67"}
                             data-plasmic-override={overrides.h67}
@@ -2642,7 +2545,6 @@ function PlasmicHomepage__RenderFunc(props) {
                 </p.Stack>
               </p.Stack>
             </div>
-
             <div
               data-plasmic-name={"_14Layout2"}
               data-plasmic-override={overrides._14Layout2}
@@ -2678,7 +2580,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     >
                       {"Team"}
                     </div>
-
                     <div
                       data-plasmic-name={"h3SectionTitleSec"}
                       data-plasmic-override={overrides.h3SectionTitleSec}
@@ -2690,7 +2591,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     >
                       {"Our Popular Courses"}
                     </div>
-
                     <div
                       data-plasmic-name={"paragraphSec3"}
                       data-plasmic-override={overrides.paragraphSec3}
@@ -2706,7 +2606,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     </div>
                   </p.Stack>
                 </div>
-
                 <p.Stack
                   as={"div"}
                   data-plasmic-name={"row10"}
@@ -2738,7 +2637,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           className={classNames(projectcss.all, sty.userCover1)}
                         />
                       </div>
-
                       <p.Stack
                         as={"div"}
                         data-plasmic-name={"cardContent4"}
@@ -2757,7 +2655,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"Julian Jameson"}
                         </div>
-
                         <div
                           data-plasmic-name={"smallJobDescriptionSec"}
                           data-plasmic-override={
@@ -2771,7 +2668,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"Profession"}
                         </div>
-
                         <p.Stack
                           as={"div"}
                           data-plasmic-name={"socialMediaSec"}
@@ -2795,7 +2691,6 @@ function PlasmicHomepage__RenderFunc(props) {
                               role={"img"}
                             />
                           </div>
-
                           <div
                             data-plasmic-name={"instagram"}
                             data-plasmic-override={overrides.instagram}
@@ -2812,7 +2707,6 @@ function PlasmicHomepage__RenderFunc(props) {
                               role={"img"}
                             />
                           </div>
-
                           <div
                             data-plasmic-name={"twitter"}
                             data-plasmic-override={overrides.twitter}
@@ -2830,7 +2724,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       </p.Stack>
                     </div>
                   </div>
-
                   <div
                     data-plasmic-name={"colMd32"}
                     data-plasmic-override={overrides.colMd32}
@@ -2855,7 +2748,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           className={classNames(projectcss.all, sty.userCover2)}
                         />
                       </div>
-
                       <p.Stack
                         as={"div"}
                         data-plasmic-name={"cardContent5"}
@@ -2874,7 +2766,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"Julian Jameson"}
                         </div>
-
                         <div
                           data-plasmic-name={"smallJobDescriptionSec2"}
                           data-plasmic-override={
@@ -2888,7 +2779,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"Profession"}
                         </div>
-
                         <p.Stack
                           as={"div"}
                           data-plasmic-name={"socialMediaSec2"}
@@ -2915,7 +2805,6 @@ function PlasmicHomepage__RenderFunc(props) {
                               role={"img"}
                             />
                           </div>
-
                           <div
                             data-plasmic-name={"instagram2"}
                             data-plasmic-override={overrides.instagram2}
@@ -2932,7 +2821,6 @@ function PlasmicHomepage__RenderFunc(props) {
                               role={"img"}
                             />
                           </div>
-
                           <div
                             data-plasmic-name={"twitter2"}
                             data-plasmic-override={overrides.twitter2}
@@ -2950,7 +2838,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       </p.Stack>
                     </div>
                   </div>
-
                   <div
                     data-plasmic-name={"colMd33"}
                     data-plasmic-override={overrides.colMd33}
@@ -2975,7 +2862,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           className={classNames(projectcss.all, sty.userCover3)}
                         />
                       </div>
-
                       <p.Stack
                         as={"div"}
                         data-plasmic-name={"cardContent6"}
@@ -2994,7 +2880,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"Julian Jameson"}
                         </div>
-
                         <div
                           data-plasmic-name={"smallJobDescriptionSec3"}
                           data-plasmic-override={
@@ -3008,7 +2893,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"Profession"}
                         </div>
-
                         <p.Stack
                           as={"div"}
                           data-plasmic-name={"socialMediaSec3"}
@@ -3035,7 +2919,6 @@ function PlasmicHomepage__RenderFunc(props) {
                               role={"img"}
                             />
                           </div>
-
                           <div
                             data-plasmic-name={"instagram3"}
                             data-plasmic-override={overrides.instagram3}
@@ -3052,7 +2935,6 @@ function PlasmicHomepage__RenderFunc(props) {
                               role={"img"}
                             />
                           </div>
-
                           <div
                             data-plasmic-name={"twitter3"}
                             data-plasmic-override={overrides.twitter3}
@@ -3070,7 +2952,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       </p.Stack>
                     </div>
                   </div>
-
                   <div
                     data-plasmic-name={"colMd34"}
                     data-plasmic-override={overrides.colMd34}
@@ -3095,7 +2976,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           className={classNames(projectcss.all, sty.userCover4)}
                         />
                       </div>
-
                       <p.Stack
                         as={"div"}
                         data-plasmic-name={"cardContent7"}
@@ -3114,7 +2994,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"Julian Jameson"}
                         </div>
-
                         <div
                           data-plasmic-name={"smallJobDescriptionSec4"}
                           data-plasmic-override={
@@ -3128,7 +3007,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"Profession"}
                         </div>
-
                         <p.Stack
                           as={"div"}
                           data-plasmic-name={"socialMediaSec4"}
@@ -3155,7 +3033,6 @@ function PlasmicHomepage__RenderFunc(props) {
                               role={"img"}
                             />
                           </div>
-
                           <div
                             data-plasmic-name={"instagram4"}
                             data-plasmic-override={overrides.instagram4}
@@ -3172,7 +3049,6 @@ function PlasmicHomepage__RenderFunc(props) {
                               role={"img"}
                             />
                           </div>
-
                           <div
                             data-plasmic-name={"twitter4"}
                             data-plasmic-override={overrides.twitter4}
@@ -3193,7 +3069,6 @@ function PlasmicHomepage__RenderFunc(props) {
                 </p.Stack>
               </p.Stack>
             </div>
-
             <div
               data-plasmic-name={"_11Layout4"}
               data-plasmic-override={overrides._11Layout4}
@@ -3229,7 +3104,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     >
                       {"Newsletter"}
                     </div>
-
                     <div
                       data-plasmic-name={"h3SectionTitle4Sec"}
                       data-plasmic-override={overrides.h3SectionTitle4Sec}
@@ -3241,7 +3115,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     >
                       {"Watch our Courses"}
                     </div>
-
                     <div
                       data-plasmic-name={"paragraphSec4"}
                       data-plasmic-override={overrides.paragraphSec4}
@@ -3257,7 +3130,6 @@ function PlasmicHomepage__RenderFunc(props) {
                     </div>
                   </p.Stack>
                 </div>
-
                 <p.Stack
                   as={"div"}
                   data-plasmic-name={"rowSec"}
@@ -3300,7 +3172,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             {"Your Email"}
                           </div>
                         </div>
-
                         <div
                           data-plasmic-name={"inputGroupAppend"}
                           data-plasmic-override={overrides.inputGroupAppend}
@@ -3333,7 +3204,6 @@ function PlasmicHomepage__RenderFunc(props) {
                 </p.Stack>
               </p.Stack>
             </div>
-
             <div
               data-plasmic-name={"footer"}
               data-plasmic-override={overrides.footer}
@@ -3374,7 +3244,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       >
                         {"Company Info"}
                       </div>
-
                       <p.Stack
                         as={"div"}
                         data-plasmic-name={"div8"}
@@ -3393,7 +3262,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"About Us"}
                         </div>
-
                         <div
                           data-plasmic-name={"link9"}
                           data-plasmic-override={overrides.link9}
@@ -3405,7 +3273,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"Carrier"}
                         </div>
-
                         <div
                           data-plasmic-name={"link10"}
                           data-plasmic-override={overrides.link10}
@@ -3417,7 +3284,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"We are hiring"}
                         </div>
-
                         <div
                           data-plasmic-name={"link11"}
                           data-plasmic-override={overrides.link11}
@@ -3431,7 +3297,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         </div>
                       </p.Stack>
                     </p.Stack>
-
                     <p.Stack
                       as={"div"}
                       data-plasmic-name={"colMd22"}
@@ -3450,7 +3315,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       >
                         {"Legal"}
                       </div>
-
                       <p.Stack
                         as={"div"}
                         data-plasmic-name={"div9"}
@@ -3469,7 +3333,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"About Us"}
                         </div>
-
                         <div
                           data-plasmic-name={"link13"}
                           data-plasmic-override={overrides.link13}
@@ -3481,7 +3344,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"Carrier"}
                         </div>
-
                         <div
                           data-plasmic-name={"link14"}
                           data-plasmic-override={overrides.link14}
@@ -3493,7 +3355,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"We are hiring"}
                         </div>
-
                         <div
                           data-plasmic-name={"link15"}
                           data-plasmic-override={overrides.link15}
@@ -3507,7 +3368,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         </div>
                       </p.Stack>
                     </p.Stack>
-
                     <p.Stack
                       as={"div"}
                       data-plasmic-name={"colMd23"}
@@ -3526,7 +3386,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       >
                         {"Features"}
                       </div>
-
                       <p.Stack
                         as={"div"}
                         data-plasmic-name={"div10"}
@@ -3545,7 +3404,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"Business Marketing"}
                         </div>
-
                         <div
                           data-plasmic-name={"link17"}
                           data-plasmic-override={overrides.link17}
@@ -3557,7 +3415,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"User Analytic"}
                         </div>
-
                         <div
                           data-plasmic-name={"link18"}
                           data-plasmic-override={overrides.link18}
@@ -3569,7 +3426,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"Live Chat"}
                         </div>
-
                         <div
                           data-plasmic-name={"link19"}
                           data-plasmic-override={overrides.link19}
@@ -3583,7 +3439,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         </div>
                       </p.Stack>
                     </p.Stack>
-
                     <p.Stack
                       as={"div"}
                       data-plasmic-name={"colMd24"}
@@ -3602,7 +3457,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       >
                         {"Resources"}
                       </div>
-
                       <p.Stack
                         as={"div"}
                         data-plasmic-name={"div11"}
@@ -3621,7 +3475,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"IOS & Android"}
                         </div>
-
                         <div
                           data-plasmic-name={"link21"}
                           data-plasmic-override={overrides.link21}
@@ -3633,7 +3486,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"Watch a Demo"}
                         </div>
-
                         <div
                           data-plasmic-name={"link22"}
                           data-plasmic-override={overrides.link22}
@@ -3645,7 +3497,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         >
                           {"Customers"}
                         </div>
-
                         <div
                           data-plasmic-name={"link23"}
                           data-plasmic-override={overrides.link23}
@@ -3659,7 +3510,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         </div>
                       </p.Stack>
                     </p.Stack>
-
                     <p.Stack
                       as={"div"}
                       data-plasmic-name={"colMd411"}
@@ -3678,7 +3528,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       >
                         {"Get In Touch"}
                       </div>
-
                       <p.Stack
                         as={"div"}
                         data-plasmic-name={"div12"}
@@ -3716,7 +3565,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             {"(480) 555-0103"}
                           </div>
                         </p.Stack>
-
                         <p.Stack
                           as={"div"}
                           data-plasmic-name={"featureItem2"}
@@ -3759,7 +3607,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             }
                           </div>
                         </p.Stack>
-
                         <p.Stack
                           as={"div"}
                           data-plasmic-name={"featureItem3"}
@@ -3805,7 +3652,6 @@ function PlasmicHomepage__RenderFunc(props) {
                   </p.Stack>
                 </div>
               </div>
-
               <div
                 data-plasmic-name={"div13"}
                 data-plasmic-override={overrides.div13}
@@ -3844,7 +3690,6 @@ function PlasmicHomepage__RenderFunc(props) {
                         {"Made With Love By Figmaland All Right Reserved "}
                       </div>
                     </div>
-
                     <div
                       data-plasmic-name={"colMd62"}
                       data-plasmic-override={overrides.colMd62}
@@ -3870,7 +3715,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             role={"img"}
                           />
                         </div>
-
                         <div
                           data-plasmic-name={"instagram5"}
                           data-plasmic-override={overrides.instagram5}
@@ -3884,7 +3728,6 @@ function PlasmicHomepage__RenderFunc(props) {
                             role={"img"}
                           />
                         </div>
-
                         <div
                           data-plasmic-name={"twitter5"}
                           data-plasmic-override={overrides.twitter5}
